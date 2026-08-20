@@ -9,7 +9,7 @@ describe("FFLEXACHA standardization", () => {
 
     test("uses the FFLEXACHA identity", () => {
         expect(String(pbiviz.visual.name)).toBe("FFLEXACHA");
-        expect(String(pbiviz.visual.displayName)).toBe("FFLEXACHA");
+        expect(String(pbiviz.visual.displayName)).toBe("Data Lake Responsive Charts");
         expect(renderer).toContain("FFLEXACHA");
     });
 
