@@ -1,26 +1,28 @@
 {
-  "visual": {
-    "name": "FFLEXACHA",
-    "displayName": "FFLEXACHA",
-    "guid": "fflexacha_3d839e26068248798a4ab8a845b92d3f",
-    "visualClassName": "DataLakeTables",
-    "version": "1.0.0.1",
-    "description": "Responsive analytical chart with category, series, values, labels, legends, and accessible interactions.",
-    "supportUrl": "https://www.skibaanalytics.com/support",
-    "gitHubUrl": "https://github.com/muhumuza684/KIBA-powerbi-visuals"
-  },
-  "apiVersion": "5.3.0",
-  "author": {
-    "name": "Data Lake Visual Family",
-    "email": "hello@datalakevisuals.example"
-  },
-  "assets": {
-    "icon": "assets/icon.png"
-  },
-  "externalJS": [],
-  "style": "style/visual.less",
-  "capabilities": "capabilities.json",
-  "stringResources": [
-    "stringResources/en-US/resources.resjson"
-  ]
+    "visual":  {
+                   "name":  "FFLEXACHA",
+                   "displayName":  "Data Lake Responsive Charts",
+                   "guid":  "fflexacha_3d839e26068248798a4ab8a845b92d3f",
+                   "visualClassName":  "DataLakeTables",
+                   "version":  "1.0.0.1",
+                   "description":  "Responsive analytical charts with category, value, series, labels, legends, accessible palettes, and interaction states.",
+                   "supportUrl":  "https://www.skibaanalytics.com/support",
+                   "gitHubUrl":  "https://github.com/muhumuza684/KIBA-powerbi-visuals"
+               },
+    "apiVersion":  "5.3.0",
+    "author":  {
+                   "name":  "Data Lake Visual Family",
+                   "email":  "hello@datalakevisuals.example"
+               },
+    "assets":  {
+                   "icon":  "assets/icon.png"
+               },
+    "externalJS":  [
+
+                   ],
+    "style":  "style/visual.less",
+    "capabilities":  "capabilities.json",
+    "stringResources":  [
+                            "stringResources/en-US/resources.resjson"
+                        ]
 }
